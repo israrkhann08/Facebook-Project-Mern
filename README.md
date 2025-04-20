@@ -1,22 +1,22 @@
 # Facebook-Project-Mern
-Project Name: Social Media App (MERN Stack)
-Frontend
-Technologies Used:
-React.js: A JavaScript library for building user interfaces. We used React to create dynamic and interactive web pages.
+# Project Name: Social Media App (MERN Stack)
+# Frontend
+# Technologies Used:
+# React.js: A JavaScript library for building user interfaces. We used React to create dynamic and  interactive web pages.
 
-Material-UI: A popular React UI framework that provides pre-built components and styles to enhance the UI development process.
+# Material-UI: A popular React UI framework that provides pre-built components and styles to enhance the UI development process.
 
-React Router DOM: Used for handling routing between different pages (Signup, Login, Profile, Timeline, etc.).
+# React Router DOM: Used for handling routing between different pages (Signup, Login, Profile, Timeline, etc.).
 
-Formik: A form management library for handling form state and validation.
+# Formik: A form management library for handling form state and validation.
 
-Yup: A JavaScript schema validator used with Formik to handle form validation.
+# Yup: A JavaScript schema validator used with Formik to handle form validation.
 
-Axios: A promise-based HTTP client used to send requests to the backend API and manage responses.
+# Axios: A promise-based HTTP client used to send requests to the backend API and manage responses.
 
-LocalStorage: Used to store the authentication token securely after login, so users stay logged in.
+# LocalStorage: Used to store the authentication token securely after login, so users stay logged in.
 
-Key Pages:
+# Key Pages:
 Signup: Allows users to create an account by providing their name, email, password, and age.
 
 Login: Users can log into the platform using their email and password.
@@ -33,23 +33,23 @@ Create Post: Enables users to create new posts.
 
 Edit Post: Allows users to edit existing posts.
 
-Backend
-Technologies Used:
-Node.js: JavaScript runtime built on Chrome's V8 JavaScript engine. We used Node.js to build the backend of the app.
+# Backend
+# Technologies Used:
+# Node.js: JavaScript runtime built on Chrome's V8 JavaScript engine. We used Node.js to build the backend of the app.
 
-Express.js: A web application framework for Node.js, used to handle routing and HTTP requests.
+# Express.js: A web application framework for Node.js, used to handle routing and HTTP requests.
 
-MongoDB: A NoSQL database used to store user information, posts, and other data in the app.
+# MongoDB: A NoSQL database used to store user information, posts, and other data in the app.
 
-Mongoose: An ODM (Object Data Modeling) library for MongoDB and Node.js, which provides a straightforward way to model and interact with the database.
+# Mongoose: An ODM (Object Data Modeling) library for MongoDB and Node.js, which provides a straightforward way to model and interact with the database.
 
-JWT (JSON Web Token): Used for user authentication, allowing secure login and authorization by issuing tokens.
+# JWT (JSON Web Token): Used for user authentication, allowing secure login and authorization by issuing tokens.
 
-Bcrypt.js: Used for password hashing before storing user credentials in the database.
+# Bcrypt.js: Used for password hashing before storing user credentials in the database.
 
-Nodemailer: A package used to send OTP emails to users during the signup process or password reset.
+# Nodemailer: A package used to send OTP emails to users during the signup process or password reset.
 
-API Endpoints:
+# API Endpoints:
 POST /user/signup: Registers a new user and sends an OTP to the user's email for verification.
 
 POST /user/otp-verify: Verifies the OTP entered by the user during signup.
@@ -99,7 +99,7 @@ Start the server: npm start
 
 The backend will be running on http://localhost:4000.
 
-Features
+# Features
 User registration with OTP verification.
 
 Secure login using JWT token-based authentication.
